@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.home-section {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgb(43, 43, 103) 70%, white 30%); */
+}
+#navbar {
+    background: linear-gradient(90deg, rgb(43, 43, 103) 70%, white 30%);
+}
+
+#logo {
+    margin-left: 15px;
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: var(--bs-info-border-subtle);
+}
+
+.navbar-nav {
+    margin-left: 50px;
+    margin-top: 6px;
+}
+
+.nav-item .nav-link {
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--bs-info-border-subtle);
+}
+
+.home {
+    width: 100%;
+    display: flex;
+}
+
+.home .background {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    opacity: 20%;
+}
+
+.heading-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h1 {
+    font-size: 10vh;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#About-me .row {
+    display: flex;
+}
+
+#About-me h3 {
+    color: white;
+    word-spacing: 3px;
+}
+
+#profile {
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(25, 35, 65);
+    align-items: center;
+}
+
+#profile img {
+    object-fit: cover;
+}
+
+#profile h5 {
+    color: white;
+    display: flex;
+}
+
+#profile p {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#profile .container2 {
+    margin: 10px 0;
+}
+
+#profile .progress {
+    align-items: center;
+    background-color: rgb(25, 35, 65);
+}
+
+#profile #img.igs{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+#Text #katakata {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#Text #texto {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    max-width: 100%;
+    background-color: gray;
+}
+
+#Text h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#Text p {
+    color: white;
+}
+
+#eb {
+    margin-top: 17vh;
+}
+
+#eb .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#eb .row .card {
+    background-color: rgb(25, 35, 65);
+    color: white;
+}
+
+#contact {
+    margin-top: 10vh;
+}
+
+#contact .post-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#contact .form-group {
+    color: white;
+    margin-bottom: 5%;
+}
+
+.bg-body-tertiary {
+    margin-top: 10%;
+}
